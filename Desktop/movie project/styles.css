@@ -3,8 +3,21 @@ body{
    color: white;
    font-family: 'Times New Roman', Times, serif;
 }
-*{
-    margin: 0%;
+*{  
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.carousel-container{
+    width: 60%;
+    margin: auto;
+    
+}
+.carousel-slide{
+    display: flex;
+    width: 100%;
+    height: 500px;
+
 }
 .navbar{
     width: 100%;
@@ -22,14 +35,20 @@ body{
 }
 .logo{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    
 }
 .home-container{
-    flex: 6;
+    flex: 16;
     color: black;
 
 }
 .profile-container{
-    flex: 8;
+    flex: 4;
+    color: black;
+}
+.movie-container{
+    flex: 16;
     color: black;
 }
 .sidebar{
