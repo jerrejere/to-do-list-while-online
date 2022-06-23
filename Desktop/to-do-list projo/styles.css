@@ -16,7 +16,11 @@ body{
     vertical-align: middle;
 }
 .logo-container{
-    flex:1
+    flex:1;
+    margin: 100px;
+    height: 12;
+    width: 34px; 
+    
 }
 #addToDo{
     height: 50px;
