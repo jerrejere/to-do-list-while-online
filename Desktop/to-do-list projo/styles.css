@@ -6,7 +6,10 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 .container{
-    width: 360px;
+    width: 370px;
+    height: 100px;
+    position: relative;
+    overflow:hidden ;
 }
 #inputField{
     width: 300px;
@@ -39,4 +42,7 @@ body{
     margin: 0;
     cursor: pointer;
     font-size: 20px;
+}
+img{
+    pointer-events: stroke;
 }
